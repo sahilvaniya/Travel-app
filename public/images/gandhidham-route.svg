@@ -1,0 +1,76 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#D9DCEB"/>
+  <rect width="1200" height="470" fill="url(#sky)"/>
+  <rect y="470" width="1200" height="330" fill="#D6C4A5"/>
+
+  <rect x="0" y="265" width="210" height="245" fill="#CFCFD3"/>
+  <rect x="25" y="300" width="42" height="64" fill="#8BA1BF"/>
+  <rect x="82" y="300" width="42" height="64" fill="#8BA1BF"/>
+  <rect x="139" y="300" width="42" height="64" fill="#8BA1BF"/>
+  <rect x="25" y="386" width="42" height="64" fill="#8BA1BF"/>
+  <rect x="82" y="386" width="42" height="64" fill="#8BA1BF"/>
+  <rect x="139" y="386" width="42" height="64" fill="#8BA1BF"/>
+
+  <rect x="972" y="280" width="228" height="230" fill="#DDD5CB"/>
+  <rect x="1002" y="315" width="54" height="72" fill="#A4B7CE"/>
+  <rect x="1070" y="315" width="54" height="72" fill="#A4B7CE"/>
+  <rect x="1002" y="404" width="54" height="72" fill="#A4B7CE"/>
+  <rect x="1070" y="404" width="54" height="72" fill="#A4B7CE"/>
+
+  <rect x="220" y="310" width="160" height="180" fill="#E2E2E4"/>
+  <rect x="400" y="285" width="140" height="205" fill="#D3D3D8"/>
+  <rect x="560" y="305" width="120" height="185" fill="#DEDEE2"/>
+  <rect x="700" y="295" width="150" height="195" fill="#D5D5D8"/>
+  <rect x="870" y="325" width="85" height="165" fill="#E6E1D9"/>
+
+  <path d="M334 405C420 290 778 285 868 401" stroke="#3A3A44" stroke-width="22" stroke-linecap="round"/>
+  <path d="M350 406C431 310 764 305 852 404" stroke="#E8E8EC" stroke-width="14" stroke-linecap="round"/>
+  <rect x="590" y="292" width="26" height="98" rx="4" fill="#3C3C44"/>
+  <circle cx="603" cy="284" r="30" fill="#F2F2F2" stroke="#3B3B42" stroke-width="10"/>
+  <line x1="603" y1="258" x2="603" y2="284" stroke="#3B3B42" stroke-width="6" stroke-linecap="round"/>
+  <line x1="603" y1="284" x2="620" y2="274" stroke="#3B3B42" stroke-width="5" stroke-linecap="round"/>
+
+  <path d="M0 800L240 520H960L1200 800H0Z" fill="#6E6A67"/>
+  <path d="M120 800L310 545H890L1080 800H120Z" fill="#77726E"/>
+  <path d="M560 540H640L618 800H582L560 540Z" fill="#A59C93" opacity="0.9"/>
+
+  <g opacity="0.9">
+    <rect x="160" y="520" width="130" height="82" rx="12" fill="#EDEDED"/>
+    <rect x="185" y="540" width="52" height="30" rx="6" fill="#A8C0DA"/>
+    <circle cx="192" cy="610" r="15" fill="#2B2B2B"/>
+    <circle cx="258" cy="610" r="15" fill="#2B2B2B"/>
+  </g>
+
+  <g>
+    <rect x="353" y="540" width="102" height="62" rx="18" fill="#F5F5F5"/>
+    <rect x="370" y="553" width="35" height="22" rx="6" fill="#B7D0E8"/>
+    <rect x="410" y="553" width="26" height="22" rx="6" fill="#B7D0E8"/>
+    <circle cx="375" cy="608" r="13" fill="#292929"/>
+    <circle cx="428" cy="608" r="13" fill="#292929"/>
+  </g>
+
+  <g>
+    <rect x="748" y="535" width="138" height="70" rx="16" fill="#111111"/>
+    <rect x="775" y="551" width="48" height="25" rx="6" fill="#F0D45A"/>
+    <rect x="829" y="551" width="30" height="25" rx="6" fill="#F0D45A"/>
+    <circle cx="782" cy="612" r="15" fill="#292929"/>
+    <circle cx="854" cy="612" r="15" fill="#292929"/>
+  </g>
+
+  <g>
+    <rect x="930" y="550" width="126" height="58" rx="14" fill="#1C1C1C"/>
+    <rect x="955" y="564" width="42" height="20" rx="5" fill="#F0D45A"/>
+    <rect x="1003" y="564" width="28" height="20" rx="5" fill="#F0D45A"/>
+    <circle cx="964" cy="613" r="14" fill="#292929"/>
+    <circle cx="1026" cy="613" r="14" fill="#292929"/>
+  </g>
+
+  <text x="76" y="155" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="104" font-weight="900" letter-spacing="2">GANDHIDHAM</text>
+
+  <defs>
+    <linearGradient id="sky" x1="600" y1="0" x2="600" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6F718A"/>
+      <stop offset="1" stop-color="#D3D5E2"/>
+    </linearGradient>
+  </defs>
+</svg>
