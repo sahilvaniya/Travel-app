@@ -62,7 +62,7 @@ const destinations = [
     startingFrom: "₹ 3000",
     sedanPrice: "₹ 3000",
     suvPrice: "₹ 4000",
-    img: "../public/images/gandhidham_img.jpg",
+    img: "/images/gandhidham_img.jpg",
     imageAlt: "Gandhidham Gate", 
   },
   {
@@ -72,7 +72,7 @@ const destinations = [
     startingFrom: "₹ 3500",
     sedanPrice: "₹ 3500",
     suvPrice: "₹ 4500",
-    img: "../public/images/bhuj_img.jpg",
+    img: "/images/bhuj_img.jpg",
     imageAlt: "White Rann of Kutch near Bhuj", 
   },
   {
@@ -82,7 +82,7 @@ const destinations = [
     startingFrom: "₹ 1,499",
     sedanPrice: "₹ 1,499",
     suvPrice: "₹ 1,999",
-    img: "../public/images/vadodra_img.webp",
+    img: "/images/vadodra_img.webp",
     imageAlt: "Old palace in Vadodara", 
   },
   {
@@ -92,7 +92,7 @@ const destinations = [
     startingFrom: "₹ 1,299",
     sedanPrice: "₹ 1,299",
     suvPrice: "₹ 1,799",
-    img: "../public/images/anand_img.jfif",
+    img: "/images/anand_img.jfif",
     imageAlt: "Anand city image", 
   },
 ];
@@ -374,10 +374,6 @@ export default function App() {
                     src={d.img}
                     alt={d.imageAlt}
                     className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src =
-                        "https://via.placeholder.com/640x400?text=" + encodeURIComponent(d.route);
-                    }}
                   />
                   <div className="absolute top-3 left-3 bg-gray-900/85 text-yellow-400 text-xs font-bold px-3 py-1 rounded-full">
                     Popular Route
