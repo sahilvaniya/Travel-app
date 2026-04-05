@@ -62,7 +62,7 @@ const destinations = [
     startingFrom: "₹ 3000",
     sedanPrice: "₹ 3000",
     suvPrice: "₹ 4000",
-    img: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Gandhidham_Gate.jpg",
+    img: "../public/images/gandhidham_img.jpg",
     imageAlt: "Gandhidham Gate", 
   },
   {
@@ -72,7 +72,7 @@ const destinations = [
     startingFrom: "₹ 3500",
     sedanPrice: "₹ 3500",
     suvPrice: "₹ 4500",
-    img: "https://as2.ftcdn.net/jpg/07/81/16/89/1000_F_781168913_jTpOfMw2GpdG7gtuc8MhmBeQ9ZJzWWmJ.jpg",
+    img: "../public/images/bhuj_img.jpg",
     imageAlt: "White Rann of Kutch near Bhuj", 
   },
   {
@@ -82,7 +82,7 @@ const destinations = [
     startingFrom: "₹ 1,499",
     sedanPrice: "₹ 1,499",
     suvPrice: "₹ 1,999",
-    img: "https://www.shutterstock.com/image-photo/vadodara-gujarat-14082023-old-palace-600nw-2347035359.jpg",
+    img: "../public/images/vadodra_img.webp",
     imageAlt: "Old palace in Vadodara", 
   },
   {
@@ -92,7 +92,7 @@ const destinations = [
     startingFrom: "₹ 1,299",
     sedanPrice: "₹ 1,299",
     suvPrice: "₹ 1,799",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN2-rsTQPLNP1X1xLNtlhunqSKE0mktCpIVrBqKFg7W-_UOxfYycPO29I&s=10",
+    img: "../public/images/anand_img.jfif",
     imageAlt: "Anand city image", 
   },
 ];
